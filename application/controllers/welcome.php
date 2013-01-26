@@ -27,7 +27,9 @@ class Welcome extends CI_Controller {
 		$data["nombre"] = "Eduardo";
 		$data["twitter"] = "@ed_jck";
 
+		$this->load->view('plantillas/header');
 		$this->load->view('welcome_message', $data);
+		$this->load->view('plantillas/footer');
 	}
 }
 

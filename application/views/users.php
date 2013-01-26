@@ -1,3 +1,5 @@
+<?php !isset($this->session->userdata['habilitado'])?   
+die('Página con acceso restringido. <a href="./login_view">Click aquí para hacer login</a>')   :   ''; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
